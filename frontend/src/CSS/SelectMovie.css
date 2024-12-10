@@ -1,0 +1,28 @@
+.SM_HEADING {
+    width: 100%;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .SM_MAIN_CONTAINER {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .tsheading {
+    width: 100%;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .tsmain {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    color: black;
+  }
+  

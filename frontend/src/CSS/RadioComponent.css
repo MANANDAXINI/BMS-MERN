@@ -1,0 +1,26 @@
+/* Form label for display element */
+.form-chk-label {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 2px solid rgb(10, 10, 10);
+    margin: 10px;
+  }
+  
+  .form-chk-label.active {
+    background-color: rgba(215, 9, 9, 0.937);
+    font-weight: 600;
+    user-select: none;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-chk-label.inactive {
+    user-select: none;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+    text-align: center;
+    border-radius: 5px;
+  }
+  

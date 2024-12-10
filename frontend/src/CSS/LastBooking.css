@@ -1,0 +1,82 @@
+/* Main container for the booking details */
+.maincon {
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid black;
+  background-color: #f8f9fa; /* Light background for contrast */
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header for the main section */
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 15px;
+}
+
+/* Container for seat details */
+.seatcon {
+  margin-bottom: 15px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+/* Header for seat list */
+.seatheader {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* Unordered list for seat details */
+.seat {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px; /* Add space between items */
+}
+
+/* Individual seat value */
+.seatval {
+  width: 80px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(0, 207, 207);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.seatval:hover {
+  background-color: rgb(0, 177, 177); /* Slightly darker on hover */
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Slot and Movie details */
+.slot,
+.movie {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: black;
+  margin: 10px 0;
+}
+
+.slot span,
+.movie span {
+  font-weight: bold;
+  color: rgb(0, 207, 207);
+}

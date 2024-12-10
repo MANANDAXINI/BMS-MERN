@@ -1,0 +1,13 @@
+.headseat {
+  width: 100%;
+  font-size: 22px;
+  color: black;
+}
+
+.mapp {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  color: black;
+}
